@@ -1,6 +1,6 @@
 {
-  "name": "Mgc-Corelib",
-  "version": "1.2.1",
+  "name": "mgc-corelib",
+  "version": "1.2.2",
   "description": "A pure and powerful JavaScript MagnaChain library.",
   "author": "Felix Lee <ustcerlf@gmail.com>",
   "main": "index.js",
