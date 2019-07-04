@@ -54334,8 +54334,8 @@ exports.createContext = Script.createContext = function (context) {
 
 },{}],214:[function(require,module,exports){
 module.exports={
-  "name": "bitcore-lib",
-  "version": "0.16.0",
+  "name": "mgc-corelib",
+  "version": "1.2.2",
   "description": "A pure and powerful JavaScript Bitcoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -54363,7 +54363,7 @@ module.exports={
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-lib.git"
+    "url": "https://github.com/MagnaChain/Mgc-Corelib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -54386,7 +54386,7 @@ module.exports={
   "license": "MIT"
 }
 
-},{}],"bitcore-lib":[function(require,module,exports){
+},{}],"mgc-corelib":[function(require,module,exports){
 (function (global,Buffer){
 'use strict';
 
@@ -54396,9 +54396,9 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of bitcore-lib found. ' +
-      'Please make sure to require bitcore-lib and check that submodules do' +
-      ' not also include their own bitcore-lib dependency.';
+    var message = 'More than one instance of mgc-corelib found. ' +
+      'Please make sure to require mgc-corelib and check that submodules do' +
+      ' not also include their own mgc-corelib dependency.';
     throw new Error(message);
   }
 };

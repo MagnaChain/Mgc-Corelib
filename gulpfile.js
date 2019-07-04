@@ -1,4 +1,4 @@
 'use strict';
 
-var startGulp = require('bitcore-build');
+var startGulp = require('mgc-corelib-build');
 Object.assign(exports, startGulp('lib'))
