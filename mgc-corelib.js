@@ -54335,7 +54335,7 @@ exports.createContext = Script.createContext = function (context) {
 },{}],214:[function(require,module,exports){
 module.exports={
   "name": "mgc-corelib",
-  "version": "1.2.2",
+  "version": "1.2.5",
   "description": "A pure and powerful JavaScript Bitcoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -54377,7 +54377,7 @@ module.exports={
     "lodash": "=4.17.11"
   },
   "devDependencies": {
-    "bitcore-build": "https://github.com/bitpay/bitcore-build.git#1023e8a99cd42b9241ccafe8e34c52f308c10284",
+    "mgc-corelib-build": "git+ssh:git@github.com:MagnaChain/Mgc-Corelib-Build.git",
     "brfs": "^2.0.1",
     "chai": "^4.2.0",
     "gulp": "^4.0.0",

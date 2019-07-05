@@ -1,6 +1,6 @@
 {
   "name": "mgc-corelib",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "A pure and powerful JavaScript MagnaChain library.",
   "author": "Felix Lee <ustcerlf@gmail.com>",
   "main": "index.js",
@@ -47,5 +47,8 @@
     "gulp": "^4.0.0",
     "sinon": "^7.1.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "_from": "mgc-corelib@git+ssh://git@github.com/MagnaChain/Mgc-Corelib.git",
+  "_resolved": "https://github.com/MagnaChain/Mgc-Corelib.git#master",
+  "__npminstall_done": "Fri Jul 05 2019 11:06:46 GMT+0800 (中国标准时间)"
 }
